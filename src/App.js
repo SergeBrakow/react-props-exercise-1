@@ -1,4 +1,5 @@
 import "./styles.css";
+import HelloSomeone from "./components/HelloSomeone";
 
 /* Exercise
 1. Update the HelloSomeone component to accept a name and a greeting property.
@@ -21,8 +22,9 @@ export default function App() {
   );
 }
 
-const HelloSomeone = ({name, greeting, hasDarkMode = true}) => {
+/*  const HelloSomeone = ({name, greeting, hasDarkMode = true}) => {
   return <div className={hasDarkMode ? "dark" : ""}>
     <h2>{`${greeting} ${name === "Mario" ? "Boss" : name } `}</h2> 
     </div>;
-};
+}; 
+  */
